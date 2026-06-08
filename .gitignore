@@ -1,0 +1,25 @@
+# Sensitive credentials - DO NOT COMMIT
+credentials.json
+token.json
+
+# Dependencies
+node_modules/
+
+# Build output (optional - remove if you want to include compiled files)
+# dist/
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

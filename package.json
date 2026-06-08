@@ -1,0 +1,24 @@
+{
+  "name": "mcp-google-drive",
+  "version": "1.0.0",
+  "description": "MCP Server for Google Drive - List, read, write, update, delete and search files via AI assistants (Antigravity, Claude Code, etc.)",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "auth": "node dist/auth.js"
+  },
+  "keywords": ["mcp", "google-drive", "ai", "claude", "antigravity", "model-context-protocol"],
+  "author": "mrbit-dev",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.4.2",
+    "googleapis": "^173.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "typescript": "^6.0.3"
+  }
+}
